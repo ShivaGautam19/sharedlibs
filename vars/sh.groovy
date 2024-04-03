@@ -1,3 +1,3 @@
-def call(String mvnName, String options = '') {
+def call(String mvnName, String options){
     sh "${mvnName} compile ${options}"
 } 
