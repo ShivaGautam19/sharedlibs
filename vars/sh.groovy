@@ -1,6 +1,3 @@
-pipeline{
-    environment{
-        FNAME = "mvn"
-        LNAME = "compile"
-    }
-}    
+def call(name){
+    sh "${name}"
+}
