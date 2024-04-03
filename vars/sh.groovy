@@ -1,3 +1,3 @@
-def call(name){
-    sh "${name}
+def call(name name){
+    sh "${name name}
 } 
