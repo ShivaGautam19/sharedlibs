@@ -1,3 +1,3 @@
-def mvn() {
-    mvn("compile")
+def call (name) {
+    sh "${mvn} compile"
 }
