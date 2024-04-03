@@ -1,3 +1,6 @@
-def call(mvn name){
-    sh "${mvn name}
-} 
+pipeline{
+    environment{
+        FNAME = "mvn"
+        LNAME = "compile"
+    }
+}    
