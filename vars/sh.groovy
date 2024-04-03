@@ -1,3 +1,3 @@
-def compileMavenProject() {
-    callMavenProject("compile")
+def mvn() {
+    mvn("compile")
 }
