@@ -1,3 +1,3 @@
-def call(name){
-    sh "${name}"
+def compileMavenProject() {
+    callMavenProject("compile")
 }
