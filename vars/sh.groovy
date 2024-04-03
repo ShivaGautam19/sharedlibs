@@ -1,3 +1,3 @@
-def call(name){
-  sh "${name}"
+def call(mvn name){
+  sh "${mvn name}"
 }  
