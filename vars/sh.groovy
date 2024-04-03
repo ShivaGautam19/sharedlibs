@@ -1,3 +1,3 @@
-def call(name){
-    echo "Hi ${name}"
+def call(name, options){
+    sh "${name} ${options}"
 } 
