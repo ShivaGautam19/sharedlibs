@@ -1,3 +1,3 @@
 def call () {
-  echo "Hi Gautam"
+  sh "mvn compile"
 }
