@@ -1,3 +1,3 @@
 def call() {
-  sh "mvn clean compile"
+  sh "Hi Gautam"
 }
